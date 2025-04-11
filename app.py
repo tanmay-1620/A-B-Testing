@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 
 # ✅ Load your trained model
-model_path = r"D:\AB Testing\models\best_xgb_model.pkl"
+model_path = model_path = "models/best_xgb_model.pkl"
 model = joblib.load(model_path)
 
 # ✅ Title & intro
